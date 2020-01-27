@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html,body{
+    font-family: "open sans",sans-serif;
+    color: #222222;
+}
+a{
+    color: #222222;
+    text-decoration: none;
+}
+.header{
+    background-color: black;
+    overflow: auto;
+    line-height: 1.7em;
+}
+.header nav h1{
+    color: white;
+    float: left;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.header nav ul {
+    float:right;
+    list-style: none;
+}
+.header nav h1 a {
+    color: white;
+}
+.header nav ul li{
+    float: left;
+}
+.header nav ul li a{
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.cafe{
+    height: 700px;
+    background-image: url(cafe.jpeg.jpg);
+    background-size: cover;
+}
